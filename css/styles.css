@@ -526,4 +526,12 @@ body {
 	color: var(--white);
 	text-align: center;
 	font-weight: 500;
+	transition-property: transform;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+.sub-button:hover,
+.sub-button:focus {
+	cursor: pointer;
+	transform: scale(1.2);
 }
