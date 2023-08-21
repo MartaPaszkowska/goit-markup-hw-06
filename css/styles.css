@@ -612,6 +612,8 @@ body {
 	transition-property: transform;
 	transition-duration: 250ms;
 	transition-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+	border: 1px solid var(--ocean);
+	background: var(--green);
 }
 .check-span {
 	position: absolute;
@@ -624,10 +626,9 @@ body {
 	top: 5px;
 }
 .check-icons {
+	position: absolute;
+	top: 25%;
 	opacity: 0;
-	transition-property: transform;
-	transition-duration: 250ms;
-	transition-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
 }
 .agreement-text {
 	color: var(--lightslate);
