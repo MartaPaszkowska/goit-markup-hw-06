@@ -577,12 +577,18 @@ body {
 .icons-position {
 	position: relative;
 }
+.comment-form:focus,
+.comment-form:hover,
+.icons-position:focus,
 .icons-position:hover,
 .icons-position:focus-within,
-.icons-position:focus {
+.frame-form:focus,
+.frame-form:hover {
 	fill: var(--iris);
 	border-radius: 4px;
-	border: 1px solid var(--iris);
+	border: 1px solid;
+	border-color: var(--iris);
+	outline: none;
 }
 
 .agreement {
@@ -611,6 +617,7 @@ body {
 	padding: 11px 38px;
 	border: 1px solid var(--navybluemodal);
 }
+
 .icons-form {
 	position: absolute;
 	top: 11px;
