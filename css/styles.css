@@ -609,7 +609,6 @@ body {
 }
 .check-input:checked + .check-span .check-icons {
 	opacity: 1;
-	border: 1px solid var(--ocean);
 }
 .check-span {
 	position: absolute;
