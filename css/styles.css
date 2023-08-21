@@ -610,7 +610,6 @@ body {
 .check-input:checked + .check-span .check-icons {
 	opacity: 1;
 	border: 1px solid var(--ocean);
-	background: var(--green);
 }
 .check-span {
 	position: absolute;
