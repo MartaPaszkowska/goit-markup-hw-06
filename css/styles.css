@@ -609,9 +609,6 @@ body {
 }
 .check-input:checked + .check-span .check-icons {
 	opacity: 1;
-	transition-property: transform;
-	transition-duration: 250ms;
-	transition-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
 	border: 1px solid var(--ocean);
 	background: var(--green);
 }
