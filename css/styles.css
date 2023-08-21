@@ -624,6 +624,7 @@ body {
 .check-icons {
 	position: absolute;
 	top: 25%;
+	left: 20%;
 	opacity: 0;
 }
 .agreement-text {
